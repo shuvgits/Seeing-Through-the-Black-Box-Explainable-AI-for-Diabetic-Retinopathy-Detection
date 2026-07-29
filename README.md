@@ -4,8 +4,7 @@
 
 **0.96 AUC on proliferative diabetic retinopathy, and four ways to see why.**
 
-<!-- Record a 15-second GIF (upload image -> four attribution maps render) and
-     drop it here. ScreenToGif on Windows, Kap on Mac. First thing anyone sees. -->
+![Demo](results/figures/demo.gif)
 
 An EfficientNet-B4 classifier grades diabetic retinopathy severity across five
 clinical stages, trained on 35,126 retinal fundus photographs from EyePACS. Every
