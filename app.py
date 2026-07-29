@@ -263,7 +263,10 @@ def run_gradcam(img_t, pred_class, orig_arr):
     target_layer = model.backbone.blocks[-1]
     gradcam      = LayerGradCam(model, target_layer)
     attr = gradcam.attribute(img_t, target=int(pred_class))
-    attr = attr.squeeze().mean(0).cpu().detach().numpy()
+    attr = attr.squeeze().cpu().detach().numpy()
+    if attr.ndim == 3:          # (C, H, W) -> average over channels
+        attr = attr.mean(0)
+    # attr is now (H, W)
     attr = np.maximum(attr, 0)
     if attr.max() > 0:
         attr = attr / attr.max()
