@@ -16,9 +16,6 @@ strongest performance on the grades that matter most clinically.
 
 **[Model weights](https://huggingface.co/Shuverthi/efficientnet-b4-diabetic-retinopathy)**
 
-M.S. Computer Science capstone, Hofstra University, Spring 2026.
-Advised by Professor Corey L. Elowsky.
-
 ---
 
 ## Why this project
