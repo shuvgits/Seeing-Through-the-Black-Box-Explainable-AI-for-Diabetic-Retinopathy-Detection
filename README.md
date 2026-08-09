@@ -257,7 +257,3 @@ NeurIPS 2017) · EyePACS via the Kaggle Diabetic Retinopathy Detection competiti
 ## License
 
 MIT (code). Dataset subject to its original terms.
-
-## Contact
-
-Shuverthi Kanungo · [LinkedIn](https://linkedin.com/in/shuverthikanungo) · shuverthikanungo.co@gmail.com
